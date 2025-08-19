@@ -15,7 +15,7 @@ public class User {
     private String name;
     private String email;
     private int age;
-    private String nickName;
+   // private String nickName;
 
     public Long getId() {
         return id;
@@ -49,5 +49,11 @@ public class User {
         this.age = age;
     }
 
+    public String getNickName() {
+        return nickName;
+    }
 
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
+    }
 }
