@@ -7,6 +7,7 @@ import jakarta.persistence.Persistence;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+
     private static EntityManager entityManager;
 
     public static void init() {
@@ -20,6 +21,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+
         // Initialize EntityManager
         init();
 
