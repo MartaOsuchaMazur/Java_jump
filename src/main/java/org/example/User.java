@@ -14,8 +14,6 @@ public class User {
     private Long id;
     private String name;
     private String email;
-    private int age;
-    private String nickName;
 
     public Long getId() {
         return id;
@@ -41,19 +39,4 @@ public class User {
         this.email = email;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getNickName() {
-        return nickName;
-    }
-
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
-    }
 }
